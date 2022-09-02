@@ -1,0 +1,16 @@
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\bin\Debug\net5.0\CalcNumerico.exe
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\bin\Debug\net5.0\CalcNumerico.deps.json
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\bin\Debug\net5.0\CalcNumerico.runtimeconfig.json
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\bin\Debug\net5.0\CalcNumerico.runtimeconfig.dev.json
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\bin\Debug\net5.0\CalcNumerico.dll
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\bin\Debug\net5.0\ref\CalcNumerico.dll
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\bin\Debug\net5.0\CalcNumerico.pdb
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\obj\Debug\net5.0\CalcNumerico.csproj.AssemblyReference.cache
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\obj\Debug\net5.0\CalcNumerico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\obj\Debug\net5.0\CalcNumerico.AssemblyInfoInputs.cache
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\obj\Debug\net5.0\CalcNumerico.AssemblyInfo.cs
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\obj\Debug\net5.0\CalcNumerico.csproj.CoreCompileInputs.cache
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\obj\Debug\net5.0\CalcNumerico.dll
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\obj\Debug\net5.0\ref\CalcNumerico.dll
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\obj\Debug\net5.0\CalcNumerico.pdb
+C:\Users\davip\Documents\Projetos\trabalhos-uece\CalcNumerico\obj\Debug\net5.0\CalcNumerico.genruntimeconfig.cache

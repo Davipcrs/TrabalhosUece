@@ -1,19 +1,12 @@
 using System;
 
-namespace DissecMetod_CalcNum
+namespace CalcNumerico
 {
 
     //Para mudar as funções dê um Ctrl + F na função que está atualmente no metodo "Dicotomia"
     //e mude o valor da questão
     class MetodoDaDicotomia
     {
-        static void Main(string[] args)
-        {
-
-            var pr = new MetodoDaDicotomia();
-            double v = pr.Dicotomia(1.0, 3.0, 0.0001, 1000000000);
-            Console.WriteLine("Raiz é: " + v);
-        }
         
         public double AbsVal(double val)
         {
