@@ -65,13 +65,13 @@ namespace CalcNumerico
             else
             {
                 balzano_f = 1;
-                Console.WriteLine("Troque os valores iniciais e finais para que haja troca de sinal", init, endit, FuncQ1(init), FuncQ1(endit));
+                //Console.WriteLine("Troque os valores iniciais e finais para que haja troca de sinal", init, endit, FuncQ1(init), FuncQ1(endit));
             }
             return balzano_f;
         }
 
 
-        public double Dicotomia(double init, double endit, double pres, int i)
+        public double Dicotomia(double init, double endit, double pres, long i)
         {
             int countBalz = 0;
             double auxinit = init;
@@ -79,21 +79,20 @@ namespace CalcNumerico
             int balzano = Balz(init, endit);
             while (balzano == 1)
             {
-                init = Convert.ToDouble(Console.ReadLine());
-                endit = Convert.ToDouble(Console.ReadLine());
+                //init = Convert.ToDouble(Console.ReadLine());
+                //endit = Convert.ToDouble(Console.ReadLine());
                 balzano = Balz(init, endit);
                 countBalz = countBalz + 1;
-                if(countBalz == 3)
+                if(countBalz == 1)
                 {
                     init = auxinit;
                     endit = auxendit;
-                    Console.WriteLine("Teorema de Balzano possivelmente não garante que exista raiz nesse intervalo, voltando para os valores iniciais nos paramentros. " + init + " " + endit);
+                    Console.WriteLine("Teorema de Balzano não garante que exista raiz nesse intervalo");
                     break;
                 }
 
             }
             
-
 
             double aux, raiz, erro;
             raiz = init;
@@ -101,17 +100,29 @@ namespace CalcNumerico
             int count = 0;
 
             while(erro > pres && count < i)
-            {
+            {   
+                
                 aux = raiz;
                 raiz = ((init + endit) / 2);
+                 
+                count = count + 1;
+                Console.Write("Intervalo: " + "["+init+";"+endit+"] ");
+                Console.WriteLine("Iteração: "+count  + " Raiz: "+raiz+ " Erro: "+erro);
+                
                 erro = this.AbsVal((raiz - aux) / raiz);
+                count = count - 1;
+                
                 if(FuncQ4(init) * FuncQ4(raiz) < 0)
-                {
+                {   
+                    
                     endit = raiz;
+                    
                 }
                 else
-                {
+                {   
+                    
                     init = raiz;
+                    
                 }
                 count = count + 1;
 
