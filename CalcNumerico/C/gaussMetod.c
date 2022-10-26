@@ -1,4 +1,4 @@
-#include</gaussMetod.h>
+#include"gaussMetod.h"
 
 float setMatrix(int i, int j){
 	float Matrix[i][j];
@@ -16,7 +16,7 @@ float setMatrix(int i, int j){
 
 
 int main(){
-	Ma[3][3] = setMatrix(3, 3);
+	float* Ma[3][3] = setMatrix(3, 3);
 	return 0;
 }
 
