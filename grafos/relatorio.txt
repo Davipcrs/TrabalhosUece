@@ -1,0 +1,21 @@
+Aluno: Davi de Paula Coelho Raia dos Santos
+
+Decisões: 
+- Utilizei a Lista de Adjacencias como o "input" no grafo, fiz isso pois
+    o custo de memória da matriz de Adjacencia não valia a pena em meu caso.
+- Utilizei variáveis como self.arcs e self.vertex para fazer uma extração da matriz de Adjacencia
+    e me auxiliar no acesso a essas variáveis
+
+Casos de teste:
+1) Grau min: 1 (Vertice 6)
+2) Grau Max: 8 (Vertice 140961)
+3) Caminho com mais de 10 vertices: [84601, 90014, 90013, 90012, 90011, 90010, 90009, 90007, 89626, 89625, 89624]
+4) Ciclo com mais de 5 vertices: [1130, 1127, 1079, 1078, 1150, 1151]
+5) vertice: 90644, distancia: 1437303
+
+
+referências:
+https://www.dio.me/articles/o-algoritmo-de-dijkstra-em-python-encontrando-o-caminho-mais-curto
+https://www.tutorialspoint.com/How-to-get-a-list-of-all-the-keys-from-a-Python-dictionary#:~:text=the%20input%20dictionary.-,Use%20the%20keys()%20function%20and%20apply%20it%20to%20the,list%20comprehension%20and%20for%20loop.
+https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/
+Slides do Professor
